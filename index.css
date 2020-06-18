@@ -1,0 +1,140 @@
+/* Mobile */
+@media screen and (max-width: 500px) {
+  #showcase .headshot img {
+    height: 300px;
+    width: 150px;
+  }
+}
+
+/* Desktop */
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: pink;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #002447;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #6e2c00 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #e5b92f;
+  font-weight: bold;
+}
+
+#showcase {
+  min-height: 400px;
+  min-width: 500px;
+  background color: pink;
+  text-align: center;
+  color: #ffffff;
+}
+
+.headshot img {
+  height: 329px;
+  width: 329px;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+#showcase p {
+  font-size: 20px;
+  color: black;
+}
+
+#background {
+  padding: 15px;
+  color: black;
+  background color: pink;
+}
+
+#background h1 {
+  float: left;
+}
+
+#background p {
+  float: left;
+}
+
+#qualifications {
+  margin-top: 20px;
+}
+
+#qualifications h2 {
+  text-align: center;
+}
+
+#qualifications .box, .box_uh {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 10%;
+}
+
+#qualifications .box img {
+  width: 100px;
+}
+
+#qualifications .box_uh img {
+  width: 100px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #000000;
+  background: #d4e6f1;
+  text-align: center;
+}
